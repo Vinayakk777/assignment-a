@@ -1,0 +1,19 @@
+# Local secrets and state must never be committed.
+.env
+.env.local
+.env.*
+!.env.example
+.keys/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+dist/
+.next/

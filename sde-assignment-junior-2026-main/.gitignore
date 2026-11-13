@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets and local config
+.env
+.env.local
+.env.*
+!.env.example
+
+# Generated data and reports
+data/
+data_large/
+reports/
+final_state.csv
+*.db
+*.sqlite*
+
+# Node / frontend tooling
+node_modules/
+dist/
+.next/
